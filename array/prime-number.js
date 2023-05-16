@@ -1,4 +1,4 @@
-
+  
   function IsPrime(n){
     let primes=new Array(n+1).fill(true)
     for(let i = 2; i <=Math.sqrt(n) ;i++){

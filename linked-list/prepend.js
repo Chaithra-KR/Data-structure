@@ -41,7 +41,6 @@ class linkedList {
     this.size++
   }
 
-
   print() {
     if (this.isEmpty()) {
       console.log("list is empty");
