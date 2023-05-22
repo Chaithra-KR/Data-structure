@@ -1,10 +1,11 @@
-function recursiveFactorial(n){
-    if(n==0){
+// 1*2*3*4 = 4*3!
+let fact = 0
+function factorial(n){
+    if (n==0) {
         return 1
     }
-    return (n*recursiveFactorial(n-1))
+    return n* factorial(n-1)
 }
-console.log(recursiveFactorial(0));
-console.log(recursiveFactorial(5));
+console.log(factorial(5));
 
-//O(n)TS
+//O(n)TS => complexity

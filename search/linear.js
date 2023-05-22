@@ -1,11 +1,11 @@
-let arr =[1,2,3,4]
-let target =3
-function linear(arr,target) {
-    for(let i=0 ; i<arr.length;i++){
-        if(arr[i]===target){
-            return true
-        }
+let array = [1,2,3,4,5]
+let target = 0
+function linearSearch(){
+    for (let i = 0; i < array.length; i++) {
+    if (array[i]=== target) {
+        return true
+    }        
     }
     return false
 }
-console.log(linear(arr,target));
+console.log(linearSearch());

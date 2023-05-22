@@ -47,7 +47,7 @@ const list = new linkedList()
 
 list.prepend(20)
 list.prepend(10)
-list.insert(40,1)
+list.insert(30,0)
 
 console.log(list);
 

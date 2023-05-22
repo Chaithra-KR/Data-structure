@@ -30,10 +30,10 @@ class linkedList{
         let prev = null
         let curr = this.head
         while(curr){
-            let next = curr.next
+            let Next = curr.next
             curr.next = prev
             prev = curr
-            curr = next
+            curr = Next
         }
         this.head =prev
     }

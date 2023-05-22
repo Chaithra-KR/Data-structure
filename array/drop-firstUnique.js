@@ -1,18 +1,17 @@
-let array = [1,2,3,1,2,5]
-function firstUnique(){
+let array =[1,2,3,1,2,6]
+function firstUniqueElement(){
     for (let i = 0; i < array.length; i++) {
-        let isUnique = true
+        let Unique = true
         for (let j = 0; j < array.length; j++) {
             if (i!==j && array[i] ===array[j]) {
-                isUnique = false
-                break
-            }          
+                Unique = false
+            }            
         }
-        if (isUnique) {
-           return array[i]
-        }
-
+        if (Unique) {
+            console.log(array[i]);
+            break
+        }  
     }
-}
-const hai = firstUnique()
-console.log(hai);
+  
+ }
+firstUniqueElement()

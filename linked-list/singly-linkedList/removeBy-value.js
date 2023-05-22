@@ -51,8 +51,8 @@ class linkedList{
 }
 
 const list = new linkedList()
-list.prepend(3)
+list.prepend(3) 
 list.prepend(22)
 list.prepend(1)
 list.removeBy(22)
-console.log(list);
+console.log(list);  

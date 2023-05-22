@@ -3,4 +3,3 @@
     console.log(array[i]);    
     }
 //O(n)TS
-
