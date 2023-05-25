@@ -36,7 +36,7 @@ class linkedList{
             prev = prev.next
            }
            node.next = prev.next
-           prev.next = node
+           prev.next = node 
            this.size++
         }
     }
