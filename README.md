@@ -1,7 +1,7 @@
             
-                            DATA STRUCTURE THEORY
+# DATA STRUCTURE THEORY
 
-DATA STRUCTURE AND ALGORITHM
+## DATA STRUCTURE AND ALGORITHM
 ----------------------------
   Data structure is a particular way of storing and organising data to use the data 
 efficiently and effectively. The main idea behind this concept is reduce the time 
@@ -9,9 +9,9 @@ Complexity.
 Algorithms are step by step instructions to resolve a specific tak.
 
 
-MEMORY ALLOCATION AND MEMORY LEAK
----------------------------------
-  While running a programme that needs corresponding memory space to store values. So 
+## MEMORY ALLOCATION AND MEMORY LEAK
+
+While running a programme that needs corresponding memory space to store values. So 
 allocation of memory for a programme is known as memory allocation. 
 Memory leak is when a programme holds memory that is no longer needed. It can cause 
 the programme will crash.
