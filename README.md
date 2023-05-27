@@ -104,4 +104,4 @@ search.
 <br>
 
 ### RECURSION
-*Recursion  is a problem solving technique to simplify the solution. Function call by itself is Recursion . Every recursive solution needs to have a base case. That means a condition to terminate the recursion.*
+**Recursion  is a problem solving technique to simplify the solution. Function call by itself is Recursion . Every recursive solution needs to have a base case. That means a condition to terminate the recursion.**
