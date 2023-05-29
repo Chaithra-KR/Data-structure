@@ -3,9 +3,8 @@
 
 ### DATA STRUCTURE AND ALGORITHM
 
-* Data structure is a particular way of storing and organizing data to use the data efficiently and effectively. The main idea behind this concept is reduce the time 
-Complexity.
-* Algorithms are step by step instructions to resolve a specific tak.
+* ```Data structure is a particular way of storing and organizing data to use the data efficiently and effectively. The main idea behind this concept is reduce the time Complexity.```
+* ```Algorithms are step by step instructions to resolve a specific tak.```
 
 <br>
 
@@ -18,18 +17,13 @@ Complexity.
 
 ### COMPLEXITY ANALYSIS
 
-```
-  Complexity Analysis is a method to analyse the efficiency of an algorithm. The main goal is to determine how much time and space is required to solve a  task.
-
-```
+```Complexity Analysis is a method to analyse the efficiency of an algorithm. The main goal is to determine how much time and space is required to solve a  task.```
 
 <br>
 
 ### ASYMPTOTIC ANALYSIS
 
-``` 
- Asymptotic notations are mathematical tools used to describe the behavior of a function as its input size approaches infinity. (Asymptotic notations are mathematical tools to represent time and space Complexity in a programme.) 
-``` 
+``` Asymptotic notations are mathematical tools used to describe the behavior of a function as its input size approaches infinity. (Asymptotic notations are mathematical tools to represent time and space Complexity in a programme.)``` 
 <br>
 There are 3 main types of notations.
 
@@ -54,10 +48,7 @@ There are 3 main types of notations.
 <br>
 
 ### CONCEPTS OF ARRAY
-```
-Array is a collection of elements that is stored in a
-contiguous memory location. So each and every data accessing is easy through indexing. Array using 4 bytes for one element.
-```
+```Array is a collection of elements that is stored in a contiguous memory location. So each and every data accessing is easy through indexing. Array using 4 bytes for one element.```
 <br>
 
 ### CONCEPTS OF LINKED LIST
@@ -104,7 +95,8 @@ search.
 <br>
 
 ### RECURSION
-Recursion  is a problem solving technique to simplify the solution. Function call by itself is Recursion .<br> Every recursive solution needs to have a base case. That means a condition to terminate the<br> recursion.
+
+```Recursion  is a problem solving technique to simplify the solution. Function call by itself is Recursion .<br> Every recursive solution needs to have a base case. That means a condition to terminate the<br> recursion.```
 
 <br>
 Advantages
