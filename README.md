@@ -44,7 +44,6 @@ There are 3 main types of notations.
  time complexity of Θ(n), it means that the algorithm's running time will always be a linear function
  of the input size n.
 
-
 <br>
 
 ### CONCEPTS OF ARRAY
