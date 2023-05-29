@@ -3,8 +3,8 @@
 
 ### DATA STRUCTURE AND ALGORITHM
 
-* ```Data structure is a particular way of storing and organizing data to use the data efficiently and effectively. The main idea behind this concept is reduce the time Complexity.```
-* ```Algorithms are step by step instructions to resolve a specific tak.```
+* Data structure is a particular way of storing and organizing data to use the data efficiently and effectively. The main idea behind this concept is reduce the time Complexity.
+* Algorithms are step by step instructions to resolve a specific tak.
 
 <br>
 
@@ -48,7 +48,9 @@ There are 3 main types of notations.
 <br>
 
 ### CONCEPTS OF ARRAY
-```Array is a collection of elements that is stored in a contiguous memory location. So each and every data accessing is easy through indexing. Array using 4 bytes for one element.```
+
+``` Array is a collection of elements that is stored in a contiguous memory location. So each and every data accessing is easy through indexing. Array using 4 bytes for one element.```
+
 <br>
 
 ### CONCEPTS OF LINKED LIST
