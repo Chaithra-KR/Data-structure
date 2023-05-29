@@ -82,9 +82,9 @@ node.
 <br>
 
 ### CONCEPTS OF STRING
-```
-A string is a sequence of characters that are used to represent text. The characters in a string can include letters, numbers, symbols, and whitespace. Strings are represented as an array of characters, where each character is assigned a unique numerical code. The most commonly used character encoding is ASCII (American Standard Code for Information Interchange), which assigns a unique code to each of the 128 characters in the ASCII character set.
-```
+
+```A string is a sequence of characters that are used to represent text. The characters in a string can include letters, numbers, symbols, and whitespace. Strings are represented as an array of characters, where each character is assigned a unique numerical code. The most commonly used character encoding is ASCII (American Standard Code for Information Interchange), which assigns a unique code to each of the 128 characters in the ASCII character set.```
+
 Strings can be created in several ways, including using string literals, which are enclosed in quotation marks, 
 or by concatenating multiple strings together using the + operator. String manipulation operations can include 
 searching for a specific character or substring within a string, extracting a substring from a larger string, or
@@ -105,4 +105,16 @@ search.
 
 ### RECURSION
 Recursion  is a problem solving technique to simplify the solution. Function call by itself is Recursion .<br> Every recursive solution needs to have a base case. That means a condition to terminate the<br> recursion.
-  
+
+<br>
+Advantages
+
+ * Simplifies Complex Data Structures
+ * Recursive data structures, like linked lists and trees, can be naturally represented and manipulated using recursive algorithms. Recursive functions can traverse, search, or perform operations on these structures more elegantly compared to iterative approaches.
+ * Recursive solutions can often be more concise and expressive than their iterative counterparts. 
+<br>
+
+Disadvantages
+* Recursion uses more processor time.
+* very difficult to trace.
+* Each recursive call consumes memory on the call stack, and if the recursion goes too deep without a base case or proper termination condition, it can exhaust the available stack space, resulting in a stack overflow error.
