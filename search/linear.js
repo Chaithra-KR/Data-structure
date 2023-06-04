@@ -9,3 +9,4 @@ function linearSearch(){
     return false
 }
 console.log(linearSearch());
+// O(n)T O(1)S

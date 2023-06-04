@@ -35,7 +35,7 @@ class linkedList{
         if(this.isEmpty()){
             this.head = node
             this.tail = node
-        }else{
+        }else{ 
             this.tail.next = node
             this.tail =node
         }

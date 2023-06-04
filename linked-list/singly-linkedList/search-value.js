@@ -42,6 +42,7 @@ class linkedList{
             return -1
         }
     }
+    
 }
 
 const list = new linkedList()

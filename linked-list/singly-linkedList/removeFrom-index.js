@@ -74,13 +74,36 @@ class linkedList{
         this.size--
         return value
     }
+    removeFromMid(){
+        if (this.isEmpty()) {
+         return
+        }else{
+             let curr = this.head
+             let count = 0
+             while (curr) {
+                 curr = curr.next
+                 count++
+             }
+             console.log(count,"count");
+             let mid = Math.floor(count/2)
+             console.log(mid,"mid");
+             curr = this.head
+             count = 1
+             while(curr && count!== mid){
+                 curr = curr.next
+                 count++
+             }
+             curr.next = curr.next.next
+        }
+     }
 }
 
 const list = new linkedList()
 list.prepend(30)
 list.prepend(20)
 list.prepend(10)
-// console.log("removed value is",list.removeFrom(1));
+console.log("removed value is",list.removeFrom(1));
 list.removeFromEnd()
+list.removeFromMid()
 list.removeFromFrond()
 console.log(list);

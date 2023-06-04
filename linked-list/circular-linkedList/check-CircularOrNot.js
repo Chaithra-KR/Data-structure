@@ -4,19 +4,16 @@ class Node{
         this.next = null
     }
 }
+
 class linkedList{
     constructor(){
-        this.head = null
-        this.tail = null
-        this.size = 0
+    this.head = null
+    this.tail = null
+    this.size = 0
     }
 
     isEmpty(){
-      return this.size===0
-    }
-
-    getSize(){
-        return this.size
+        return this.size === 0
     }
 
     append(value){
@@ -24,12 +21,11 @@ class linkedList{
         if (this.isEmpty()) {
             this.head = node
             this.tail = node
-            node.next = this.head;
+            this.tail.next = this.head
         }else{
-            
             this.tail.next = node
-            this.tail = node  
-            this.tail.next = this.head    
+            this.tail = node
+            this.tail.next = this.head
         }
         this.size++
     }
@@ -66,23 +62,9 @@ class linkedList{
     
         return false;
       }
-
-      
-    print(){
-        let current = this.head
-        while(current){
-           console.log( current.value);
-           current = current.next
-        }
-    }
-  
 }
-const list = new linkedList(Node)
-list.append(20)
-list.append(30)
-list.append(40)
-list.append(50)
-list.append(60)
-
-console.log(list.checkCycle());
+const list = new linkedList()
+list.append(12)
+list.append(13)
+list.checkCycle()
 console.log(list);

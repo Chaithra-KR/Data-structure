@@ -28,7 +28,6 @@ class linkedList{
         if(this.isEmpty()){
             return null
         }
-        let removedNode
         if(this.head.value ==value){
            this.head = this.head.next
            this.size--
@@ -47,12 +46,11 @@ class linkedList{
             return null
         }
     }
-   
 }
 
 const list = new linkedList()
 list.prepend(3) 
 list.prepend(22)
-list.prepend(1)
-list.removeBy(22)
+list.prepend(4)
+list.removeBy(1)
 console.log(list);  
