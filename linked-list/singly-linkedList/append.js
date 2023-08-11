@@ -1,3 +1,5 @@
+// A constructor is a special method or function within a class that is automatically called when an object of that
+// class is created. Its primary purpose is to initialize the object's state and set up its initial properties.
 class Node{
     constructor(value){
         this.value = value
@@ -32,7 +34,7 @@ class linkedList{
     //append with tail
     append(value){
         const node = new Node(value)
-        if(this.isEmpty()){
+        if(this.isEmpty()){ 
             this.head = node
             this.tail = node
         }else{ 
